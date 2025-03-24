@@ -1,5 +1,5 @@
 import PageDataConstants from "../herokuapp/pages/pages-constants";
-import { test } from "../herokuapp/fixture-extension";
+import { test } from "../herokuapp/pagefixture";
 
 test.describe.parallel("Form-authentication page tests - Verify page logic", async () => {
   test.beforeEach(async ({ mainPage, baseURL }) => {

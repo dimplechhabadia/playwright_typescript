@@ -1,5 +1,5 @@
 import { test as base } from '@playwright/test';
-import MainPage from "../herokuapp/pages/_main-page/main-page";
+import MainPage from "./pages/_main-page/main-page";
 import LoginPage from './pages/login-page/login-page';
 
 type Pages = {
