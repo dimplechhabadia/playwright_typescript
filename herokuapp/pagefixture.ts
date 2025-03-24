@@ -1,3 +1,4 @@
+//https://dzone.com/articles/playwright-fixtures-vs-pom
 import { test as base } from '@playwright/test';
 import MainPage from "./pages/_main-page/main-page";
 import LoginPage from './pages/login-page/login-page';
